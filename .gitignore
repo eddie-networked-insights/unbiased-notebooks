@@ -1,2 +1,4 @@
 submission.csv
-
+*.h5
+old/
+*.npy
