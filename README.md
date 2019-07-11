@@ -5,11 +5,15 @@ $ FLASK_APP=my-flask-app.py flask run --host=0.0.0.0
 then wait for the initialization to end (stdout has a banner that will tell you when it is done)
 
 then in bash run:
+```bash
 $ curl -X GET http://104.198.177.183:5000/?content=Trump%20is%20a%20piece%20of%20shit
+```
 (as an example)
 where 104.198.177.183 is your external ip.
 as of 2019jul10 you can find your external ip by running
+```bash
 $ curl -s http://whatismyip.akamai.com/
+```
 or just look in the google cloud compute engine dashboard and check the line of the vm you are using
 
 
