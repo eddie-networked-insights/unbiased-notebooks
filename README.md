@@ -1,6 +1,8 @@
 # to run the web service
 in bash run:
+```bash
 $ FLASK_APP=my-flask-app.py flask run --host=0.0.0.0
+```
 
 then wait for the initialization to end (stdout has a banner that will tell you when it is done)
 
