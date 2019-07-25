@@ -1,3 +1,12 @@
+# to run docker image
+(must be run on a machine with a 'cuda-capable device')
+```bash
+gcloud auth configure-docker
+docker pull gcr.io/cloud9-analytics/eddie-unbiased-ws-runtime-nvidia
+docker run --runtime=nvidia -p 5000:5000 gcr.io/cloud9-analytics/eddie-unbiased-ws-runtime-nvidia
+```
+Then use the curl command below or any other way to SEND a GET request (normal browser, POSTMAN, etc.)
+
 # to run the web service
 in bash run:
 ```bash
